@@ -16,7 +16,9 @@ section {
 	letter-spacing: 3px;
 	background: linear-gradient(0deg, rgb(0 0 0 / 52%), rgb(0 0 0 / 67%)), url("../imgs/1.jpg");
 	background-size: cover;
-	position: relative; }
+	position: relative;
+	justify-content: right;
+	}
 
 img {
 	cursor: pointer;
@@ -31,16 +33,25 @@ img {
 
 .d-flex {
 	display: flex;
-	justify-content: center;
-	align-self: end;
-	/* padding: 80px; */
+	/* align-self: center; */
+	/* text-align: center; */
 }
 
 .d-flex .col-4 {
-	margin: 25px;
+	margin: 9px;
 }
 
 .d-flex .col-4 img {
-	width: 300px;
-	height: 200px;
+	width: 200px;
+	height: 150px;
+}
+h1{
+
+font-size: 25px;
+
+align-self: center;
+
+font-weight: bold;
+
+font-family: system-ui;
 }
